@@ -1,0 +1,90 @@
+html body{
+    height: 100vh;
+    background-color: var(--Eggshell);
+}
+
+.card-recepi{
+    background-color: white;
+    max-width: 50vw ;
+    padding: 35px;
+    border-radius: 20px;
+    margin: 0 auto;
+}
+
+.card-recepi .recepi img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.card-recepi .recepi{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.card-recepi .title {
+    font-family: young-serif,sans-serif;
+    font-weight: 400;
+    font-size: 42px;
+}
+.card-recepi .paragraph{
+    width: 100%;
+    font-size: 17px;
+    font-family: outfit, sans-serif;
+}
+
+.card-recepi .recepi .preparation {
+    background-color: var(--Rose-White);
+    padding: 15px 45px;
+    border-radius: 7px;
+    font-family: outfit;
+}
+
+.card-recepi .recepi .preparation h3{
+    color: var(--Dark-Raspberry);
+    font-size: 22px;
+    margin-bottom: 15px;
+}
+
+.card-recepi .recepi .preparation ul li{
+    font-size: 16px;
+}
+
+.card-recepi .recepi h2{
+    font-family: young-serif,sans-serif;
+    font-weight: 400;
+    color: var(--Nutmeg);
+    margin-top: 20px;
+}
+
+.card-recepi .recepi li {
+    font-family: outfit;
+    padding: 10px 0;
+}
+
+.card-recepi .recepi table {
+    font-size: 17px;
+    font-family: outfit;
+    font-weight: 400;
+} 
+
+.card-recepi .recepi table strong{
+    color: var(--Nutmeg);
+}
+.card-recepi .recepi table{
+    border-collapse: collapse;
+}
+
+.card-recepi .recepi table tr {
+    border-bottom: 0.4px solid lightgray;
+}
+
+.card-recepi .recepi table tr td{
+    padding: 20px;
+}
+
+.card-recepi .attribution{
+    text-align: center;
+    padding-top: 50px;
+    font-family: outfit;
+}
